@@ -5,7 +5,7 @@ services:
     container_name: postgres_container
     image: postgres
     environment:
-      - POSTGRES_DB=demodb-dk
+      - POSTGRES_DB=demodb
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=pass
     restart: always
